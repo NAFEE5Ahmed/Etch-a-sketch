@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    background-color: #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.grid-item {
+    background-color: #fff;
+}
+
+.grid-designing {
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    text-align: center;
+}
+
+.grid-size-display {
+    font-size: 1.6rem;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.grid-designing input[type="range"] {
+    width: 190px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    accent-color: #2f3542;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+#eraser {
+    background-color: #2f3542;
+    color: white;
+    border-radius: 8px;
+    padding: .6rem 3.5rem;
+    transition: background .4s ease-in;
+
+}
+
+#eraser:hover {
+    background-color: #dfe6e9;
+    color: black
+}
+
+#black-color,
+#multi-color {
+    background-color: #dfe6e9;
+    border-radius: 8px;
+    padding: .6rem 2rem;
+    transition: background .4s ease-in;
+}
+
+#black-color:hover,
+#multi-color:hover {
+    background-color: #2f3542;
+    color: white;
+}
+
+#clear {
+    background-color: #2f3542;
+    color: white;
+    border-radius: 8px;
+    padding: .6rem 4rem;
+    transition: background .4s ease-in;
+
+}
+
+#clear:hover {
+    background-color: #dfe6e9;
+    color: black
+}
